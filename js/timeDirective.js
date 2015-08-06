@@ -15,7 +15,7 @@ app.directive('showTime', function(){
       var currentTime = new Date();
       scope.time = currentTime.toLocaleString();
         
-        elemt.on("click", function() {
+        element.on("click", function() {
             scope.meetFn(scope.personName);
         });
     }
